@@ -1,0 +1,77 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.goBackLink {
+  display: block;
+  margin-bottom: 20px;
+  color: steelblue;
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+
+.goBackLink:hover {
+  text-decoration: none;
+}
+.movieContent {
+  text-align: center;
+}
+.movieContent > p {
+  text-align: left;
+}
+
+.moviePoster {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+.movieTitle {
+  font-size: 1.5em;
+  margin-bottom: 12px;
+}
+
+.movieRating {
+  font-size: 1.2em;
+  color: darkred;
+  margin-bottom: 12px;
+}
+
+.movieOverview {
+  font-size: 1em;
+  color: dimgray;
+  margin-bottom: 24px;
+}
+
+.movieGenres {
+  font-size: 1em;
+  color: darkred;
+  margin-bottom: 24px;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navItem {
+  margin: 24px;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: steelblue;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.navItem a:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,35 @@
+.reviews-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.review-item {
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.review-author {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: dimgrey;
+}
+
+.review-content {
+  font-size: 1em;
+  color: dimgrey;
+  margin-top: 12px;
+}
+
+.read-more {
+  background-color: white;
+  color: steelblue;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 4px;
+  border: none;
+}
+
+.read-more:hover {
+  text-decoration: none;
+}

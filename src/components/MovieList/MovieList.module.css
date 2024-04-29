@@ -1,0 +1,44 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movie-list-item {
+  width: calc(25% - 12px);
+  margin-bottom: 12px;
+}
+
+.moviePoster {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.movie-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  text-decoration: underline;
+  color: dimgrey;
+  text-align: center;
+}
+
+.movie-link img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.movie-link:hover {
+  background-color: steelblue;
+  color: white;
+}
