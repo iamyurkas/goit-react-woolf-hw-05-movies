@@ -3,7 +3,8 @@ import { useParams } from 'react-router-dom';
 import { fetchCreditsByMovieId } from 'service/theMovieDbApi';
 
 import styles from './Cast.module.css';
-
+import defaultMovieImg from '../../img/movie.png';
+console.log(defaultMovieImg)
 const Cast = () => {
   const [cast, setCast] = useState(null);
   const { movieId } = useParams();
@@ -28,7 +29,7 @@ const Cast = () => {
               src={
                 profile_path
                   ? `https://image.tmdb.org/t/p/w500${profile_path}`
-                  : '../../img/movie.png'
+                  : defaultMovieImg
               }
               alt={name}
               className={styles['cast-image']}

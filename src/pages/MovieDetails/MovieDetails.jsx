@@ -4,6 +4,7 @@ import { fetchMovieDetailsById } from 'service/theMovieDbApi';
 import { Loader } from 'components/Loader/Loader';
 
 import styles from './MovieDetails.module.css';
+import defaultMovieImg from '../../img/movie.png';
 
 const MovieDetails = () => {
   const [movie, setMovie] = useState(null);
@@ -35,7 +36,7 @@ const MovieDetails = () => {
             src={
               movie.poster_path
                 ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
-                : 'https://live.staticflickr.com/65535/51349451747_f6d7898f2c_n.jpg'
+                : defaultMovieImg
             }
             alt={movie.title}
             className={styles.moviePoster}
